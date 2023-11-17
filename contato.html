@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Contato TalentBank</title>
+        
+        <link rel="stylesheet" href="css/styleContato.css">
+
+        <link rel="shortcut icon" href="imagens/AkiraFavicon.png" type="image/x-icon">
+    
+    </head>
+
+    <body>
+        
+        <header>
+
+            <h1>FORMULÁRIO</h1>
+        
+            <img id="imagemlogo" src="imagens/AkiraLogo.png" width="200px" height="100px"/>
+            
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicial</a></li>
+                <li><a href="sobre.html">Conteúdo</a></li>
+                <li><a href="contato.html">Formulário</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            
+            <h2>Inscrição para o Fã-Clube:</h2>
+            
+            <p>Preencha os campos abaixo para entrar no Fã-Clube e receber sua carteirinha:</p>
+            
+            <form id="contact-form" action="./sucesso.html" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" name="data" required>
+            </div>
+            <div>
+                <label for="mensagem">Mensagem:</label>
+                <input type="text" id="mensagem" name="mensagem" required>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+            </form>
+
+        <p><a href="index.html">Retornar para Página Inicial</a></p>
+        
+        </section>
+
+        <footer>
+
+            <p>Dúvidas - Entre em contato: contato@akirafaclube.com.br</p>
+        
+        </footer>
+    
+    </body>
+</html>
